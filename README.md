@@ -13,6 +13,17 @@ Apache-2.0 License
 
 - [Néstor Nicolás Campos Rojas](https://www.linkedin.com/in/nescampos/)
 
+
+## Available options
+
+What you can currently do in the app is:
+- Create Hedera test accounts to test the purchase and sending of tokens.
+- Create projects (which store their information in the database) and create the token in the Hedera network, associated to the Hedera account that governs your application specified in the configuration.
+- See available projects, buy tokens and see the latest transactions.
+- Being able to send the HBARs obtained to the account associated with the project (this URL does not appear directly in the graphical interface, you must access the "Admin" module).
+
+
+
 ## Use this project
 **The internal name for this project is EmiCert**
 
@@ -39,15 +50,6 @@ You need to edit the **appsettings.json** file for adding:
 - HederaAccountId: The Hedera Account Id for govern this app (send transactions, create tokens, create Hedera test accounts, etc.).
 - HederaPublicKey: The Hedera Public Key for govern this app (send transactions, create tokens, create Hedera test accounts, etc.).
 - HederaPrivateKey: The Hedera Private Key for govern this app (send transactions, create tokens, create Hedera test accounts, etc.).
-
-## Available options
-
-What you can currently do in the app is:
-- Create Hedera test accounts to test the purchase and sending of tokens.
-- Create projects (which store their information in the database) and create the token in the Hedera network, associated to the Hedera account that governs your application specified in the configuration.
-- See available projects, buy tokens and see the latest transactions.
-- Being able to send the HBARs obtained to the account associated with the project (this URL does not appear directly in the graphical interface, you must access the "Admin" module).
-
 
 ## Contributions
 

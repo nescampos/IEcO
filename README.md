@@ -14,7 +14,12 @@ Apache-2.0 License
 - [Néstor Nicolás Campos Rojas](https://www.linkedin.com/in/nescampos/)
 
 ## Use this project
-** The internal name for this project is EmiCert**
+**The internal name for this project is EmiCert**
+
+First, you need to update the database applying the available migration in the project:
+```sh
+    dotnet ef database update
+```
 
 To consume this project, just run with Visual Studio or DotNet CLI in your project.
 

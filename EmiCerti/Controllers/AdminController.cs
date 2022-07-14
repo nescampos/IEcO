@@ -68,7 +68,7 @@ namespace EmiCerti.Controllers
             }
             
 
-            return View(project);
+            return RedirectToAction("ApproveSendHBAR",new { id = id });
         }
     }
 }

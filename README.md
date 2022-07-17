@@ -1,10 +1,17 @@
 # IEcO
+![cover](https://user-images.githubusercontent.com/7274106/179380246-00d89efc-48f0-4212-a5e5-d5c6cac38c01.png)
+
+
 IEcO is the Initial Coin Offering for ReFi webapp, built with C# for Hedera Hashgraph Network.
 
 You can create sustainable projects, filling in specific information and collect HBAR, in exchange for tokens given to the contributors of your project (the tokens are created at the time of creating the project).
 You can also create a test Hedera account to use for your app.
 
 This project use [Hashgraph](https://bugbytesinc.github.io/Hashgraph/), a .NET library to access the Hedera network.
+
+You can view how IEcO works in this [Youtube video](https://youtu.be/SOFH_4grcOg).
+![image](https://user-images.githubusercontent.com/7274106/179380270-e6e17882-b89b-484e-9017-8b9eb35a49b0.png)
+
 
 ## License
 ----
